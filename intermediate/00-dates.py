@@ -1,6 +1,6 @@
 # Dates
 
-# Modulo donde estan representados todos los obj y funciones relacionadas con las fechas
+# Modulo donde estan representados todos los objetos y funciones relacionadas con las fechas
 # No es un objeto basico, es complejo, por eso esta representado en un modulo
 from datetime import datetime, time, date, timedelta
 
@@ -30,7 +30,7 @@ print(now_time.hour)
 print(now_time.minute)
 print(now_time.second)
 
-# vamos a practicar don date
+# vamos a practicar con date
 now_date = date(2024, 5, 3)
 print(now_date.year)
 print(now_date.month)
@@ -51,7 +51,7 @@ print('diff_date',diff_date)
 
 # timedelta sirve para operar y tabajar con diferencias de fechas
 # trabajar con franjas de fechas
-# Representa la diferencia enetre dos objetos datetime
+# Representa la diferencia entre dos objetos datetime
 start_timedelta = timedelta(200, 100, 100, weeks = 10)
 end_timedelta = timedelta(300, 100, 100, weeks = 13)
 print('start timedelta',start_timedelta)
